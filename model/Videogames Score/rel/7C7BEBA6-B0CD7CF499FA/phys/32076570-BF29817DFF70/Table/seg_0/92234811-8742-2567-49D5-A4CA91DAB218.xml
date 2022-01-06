@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Company" directorySegmentName="seg_0" id="92234811-8742-2567-49D5-A4CA91DAB218">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<schemaObject>B352B595-D607-75BC-6BDE-A51575BDDBBA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Company_ID" id="0D6DD1E9-18E9-1A11-12B4-A608E72021D5">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Name" id="E92BC2C1-DBDB-5318-7334-048AE08D8189">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Company_PK" id="2B242534-F215-959A-6938-113834CCAF2F">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CompanyName_UN" id="01C29D62-4E91-60E7-7392-61E429C022A7">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 19:41:57 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

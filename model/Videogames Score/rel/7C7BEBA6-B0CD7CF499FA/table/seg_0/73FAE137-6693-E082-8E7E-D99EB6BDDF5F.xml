@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73FAE137-6693-E082-8E7E-D99EB6BDDF5F" schemaObject="B352B595-D607-75BC-6BDE-A51575BDDBBA" name="Console">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Console entity]]></commentInRDBMS>
+<generatorID>E6CAE2B7-9F51-7E4F-912E-C76ACE6EEF2B</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="36BA102D-26E7-142B-8E1B-BB5977456418">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Console name]]></commentInRDBMS>
+<generatorID>B71E429E-1514-C852-E18F-4724D561EAEF</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Console_ID" id="DADE88BE-1AEA-8F52-6124-C84423420B63">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Console ID]]></commentInRDBMS>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Company_Company_ID" id="7E95BB3A-8470-6473-64ED-63DCB7271BB1">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 12:39:33 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="804278FF-A92A-3EF8-8C40-A7117BADDC6E" referredColumn="0D6DD1E9-18E9-1A11-12B4-A608E72021D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="158C45B8-7439-B003-B76A-B1C205B63AC3" name="Console_PK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DADE88BE-1AEA-8F52-6124-C84423420B63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50F500DB-6F8D-4B9E-EBD9-242EB0CDCD63" name="ScoreName_UN">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-05 21:42:03 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36BA102D-26E7-142B-8E1B-BB5977456418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C9C7904-1C68-3C4A-79A1-0B3565B6056C" name="Console_Company_FK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 12:39:33 UTC</createdTime>
+<generatorID>D6D6468D-D12D-2D43-11C6-2806BA41CE84</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E95BB3A-8470-6473-64ED-63DCB7271BB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

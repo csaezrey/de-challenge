@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="1F51BFA4-5B2F-9B00-F696-EA4B0B3BAF67" name="Run_in" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="46C46FDD-C668-52D5-64E0-F547CF4A673A" name="Videogame" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="73FAE137-6693-E082-8E7E-D99EB6BDDF5F" name="Console" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="8438CE5C-EED5-E5C6-01A2-1FAB0FB243E9" name="Score" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="92234811-8742-2567-49D5-A4CA91DAB218" name="Company" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

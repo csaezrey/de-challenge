@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational Videogame Score" id="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" mainViewID="FFC8EFA1-0389-106C-F398-E5E68A6D7BCC">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 01:41:44 UTC</createdTime>
+<ownerDesignName>Videogame Score</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Console" directorySegmentName="seg_0" id="73FAE137-6693-E082-8E7E-D99EB6BDDF5F">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<schemaObject>B352B595-D607-75BC-6BDE-A51575BDDBBA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Name" id="36BA102D-26E7-142B-8E1B-BB5977456418">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Company_Company_ID" id="7E95BB3A-8470-6473-64ED-63DCB7271BB1">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 12:39:33 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Console_ID" id="DADE88BE-1AEA-8F52-6124-C84423420B63">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Console_Company_FK" id="6C9C7904-1C68-3C4A-79A1-0B3565B6056C">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 12:39:33 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Console_PK" id="158C45B8-7439-B003-B76A-B1C205B63AC3">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ScoreName_UN" id="50F500DB-6F8D-4B9E-EBD9-242EB0CDCD63">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 19:41:57 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

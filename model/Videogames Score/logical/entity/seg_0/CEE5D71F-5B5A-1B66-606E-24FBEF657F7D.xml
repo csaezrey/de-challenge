@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEE5D71F-5B5A-1B66-606E-24FBEF657F7D" name="Score">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Score entity]]></commentInRDBMS>
+<generatorID>8438CE5C-EED5-E5C6-01A2-1FAB0FB243E9</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Userscore" id="C96B8208-C8F1-BAB9-8E4F-47CE4C52D6D6">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Game score given by users]]></commentInRDBMS>
+<generatorID>26B3BA13-38E2-DD73-E506-B69E327FA4E1</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Metascore" id="37E79040-8DE2-7B09-FFF9-521190FB1A8C">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Game score given by Metacritic]]></commentInRDBMS>
+<generatorID>A6590D94-6D0F-0526-8E05-649E6C77CC84</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registration date" id="3B453FF5-3A09-F9F5-02B2-A107D6D4EC67">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Score date]]></commentInRDBMS>
+<generatorID>C83CBEF1-6285-8207-1535-99BCA4DC999B</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03DEA550-6FB3-070E-C8F6-B3251C89F517" name="Score PK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<generatorID>D911A3F5-2FBC-66B5-D506-A5322C7CEB2C</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B453FF5-3A09-F9F5-02B2-A107D6D4EC67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

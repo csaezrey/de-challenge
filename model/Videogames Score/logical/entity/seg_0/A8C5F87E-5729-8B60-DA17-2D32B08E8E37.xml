@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8C5F87E-5729-8B60-DA17-2D32B08E8E37" name="Console">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Console entity]]></commentInRDBMS>
+<generatorID>73FAE137-6693-E082-8E7E-D99EB6BDDF5F</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="1CFA0C36-2788-9060-1BB8-0F1F629ABA87">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Console name]]></commentInRDBMS>
+<generatorID>36BA102D-26E7-142B-8E1B-BB5977456418</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDEB0876-D723-0001-5E55-29BF385CFD74" name="ScoreName UN">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:49:19 UTC</createdTime>
+<generatorID>50F500DB-6F8D-4B9E-EBD9-242EB0CDCD63</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<engineerTo>
+<item key="7C7BEBA6-C8DD-288B-4590-B0CD7CF499FA" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1CFA0C36-2788-9060-1BB8-0F1F629ABA87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F0051E1B-0C5E-FBB3-7D69-E5039673D599">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 01:16:35 UTC</createdTime>
+<ownerDesignName>Videogame Score</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

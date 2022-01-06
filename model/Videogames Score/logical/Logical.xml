@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="63DF8663-654C-DFC5-A2D5-C860B782DAC4" mainViewID="8449887F-B076-4368-0AB0-9ED39B92ED8C">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 01:16:35 UTC</createdTime>
+<ownerDesignName>Videogame Score</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

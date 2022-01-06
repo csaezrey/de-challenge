@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Run_in" directorySegmentName="seg_0" id="1F51BFA4-5B2F-9B00-F696-EA4B0B3BAF67">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<schemaObject>B352B595-D607-75BC-6BDE-A51575BDDBBA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Console_ID" id="D50CF4AD-8A47-086B-319D-AAFDA8794908">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Videogame_ID" id="E193E78B-CA6E-4B5D-2A0C-7DD2F7FE913B">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Run_in_Console_FK" id="BDC516E0-B151-E622-F68D-769A0E178039">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Run_in_Videogame_FK" id="CB925374-9674-5AE4-E7F3-A5E1F501DBC5">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Run_in_PK" id="03BA8006-1B28-DE4D-65CA-BDC24AC6EBCC">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:35:42 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

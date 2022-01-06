@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="804278FF-A92A-3EF8-8C40-A7117BADDC6E" containerWithKeyObject="73FAE137-6693-E082-8E7E-D99EB6BDDF5F" localFKIndex="6C9C7904-1C68-3C4A-79A1-0B3565B6056C" name="Console_Company_FK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 12:39:33 UTC</createdTime>
+<generatorID>D6D6468D-D12D-2D43-11C6-2806BA41CE84</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<referredTableLongName>usr_score.Company</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92234811-8742-2567-49D5-A4CA91DAB218</referredTableID>
+<keyObject>2B242534-F215-959A-6938-113834CCAF2F</keyObject>
+<referredKeyID>2B242534-F215-959A-6938-113834CCAF2F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Company_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

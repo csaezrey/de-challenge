@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8438CE5C-EED5-E5C6-01A2-1FAB0FB243E9" schemaObject="B352B595-D607-75BC-6BDE-A51575BDDBBA" name="Score">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Score entity]]></commentInRDBMS>
+<generatorID>A0627125-0B21-B807-4F76-BBE1E93A9B53</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Userscore" id="26B3BA13-38E2-DD73-E506-B69E327FA4E1">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Game score given by users]]></commentInRDBMS>
+<generatorID>9A931A5C-5701-5845-BA24-852420BDF78A</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Metascore" id="A6590D94-6D0F-0526-8E05-649E6C77CC84">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Game score given by Metacritic]]></commentInRDBMS>
+<generatorID>7CB62CD8-7903-5216-0C37-2E044306FCE0</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registration_date" id="C83CBEF1-6285-8207-1535-99BCA4DC999B">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Score date]]></commentInRDBMS>
+<generatorID>5C4C5D5A-DCA2-A522-89EC-EF5CB2EE0B03</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Videogame_ID" id="75FBC6C5-959A-A5CF-391D-D819921EAAAB">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:47:20 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45BF6AEA-D745-3FF5-AAB3-3B31A842938F" referredColumn="E193E78B-CA6E-4B5D-2A0C-7DD2F7FE913B"/>
+</associations>
+</Column>
+<Column name="Console_ID" id="B0D7B64F-81F1-1C39-A3C6-3C934B7421FA">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:47:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Console ID]]></commentInRDBMS>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45BF6AEA-D745-3FF5-AAB3-3B31A842938F" referredColumn="D50CF4AD-8A47-086B-319D-AAFDA8794908"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D911A3F5-2FBC-66B5-D506-A5322C7CEB2C" name="Score_PK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:24:59 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C83CBEF1-6285-8207-1535-99BCA4DC999B"/>
+<colUsage columnID="75FBC6C5-959A-A5CF-391D-D819921EAAAB"/>
+<colUsage columnID="B0D7B64F-81F1-1C39-A3C6-3C934B7421FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A800CD8F-E844-AD29-1623-549B7B5C000F" name="Score_Run_in_FK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-06 00:47:20 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FBC6C5-959A-A5CF-391D-D819921EAAAB"/>
+<colUsage columnID="B0D7B64F-81F1-1C39-A3C6-3C934B7421FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="usr_score" directorySegmentName="seg_0" id="B352B595-D607-75BC-6BDE-A51575BDDBBA">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 12:01:46 UTC</createdTime>
+<ownerDesignName>Videogame Score</ownerDesignName>
+<ordsAlias>schema_1</ordsAlias>
+</SchemaObject>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92234811-8742-2567-49D5-A4CA91DAB218" schemaObject="B352B595-D607-75BC-6BDE-A51575BDDBBA" name="Company">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Company entity]]></commentInRDBMS>
+<generatorID>E00D242B-9B91-32DC-985C-3781F87AAC87</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="E92BC2C1-DBDB-5318-7334-048AE08D8189">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Company name]]></commentInRDBMS>
+<generatorID>473AF61F-2586-6AB5-192A-C5D6AF288454</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_ID" id="0D6DD1E9-18E9-1A11-12B4-A608E72021D5">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Company ID]]></commentInRDBMS>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B242534-F215-959A-6938-113834CCAF2F" name="Company_PK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0D6DD1E9-18E9-1A11-12B4-A608E72021D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01C29D62-4E91-60E7-7392-61E429C022A7" name="CompanyName_UN">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-05 21:41:32 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E92BC2C1-DBDB-5318-7334-048AE08D8189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

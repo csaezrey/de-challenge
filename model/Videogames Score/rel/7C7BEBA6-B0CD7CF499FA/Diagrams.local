@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="FFC8EFA1-0389-106C-F398-E5E68A6D7BCC" name="Relational Videogame Score" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

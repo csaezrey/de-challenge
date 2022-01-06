@@ -1,0 +1,1 @@
+36 22 * * * python3 /home/src/__init__.py >> /home/src/log/cron.log 2>&1

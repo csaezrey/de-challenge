@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46C46FDD-C668-52D5-64E0-F547CF4A673A" schemaObject="B352B595-D607-75BC-6BDE-A51575BDDBBA" name="Videogame">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Videogame entity]]></commentInRDBMS>
+<generatorID>5BEE6F07-28EF-2C98-5215-CE99F301E0BF</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="9858C7A0-DCB3-DA95-06AC-7B3881C3FF86">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Game name]]></commentInRDBMS>
+<generatorID>A22640E1-25D0-C141-F359-0B7639D7AE41</generatorID>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Videogame_ID" id="A67F4F83-41B5-B136-3150-A54B41647B1D">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Videogame ID]]></commentInRDBMS>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86E0FA21-1107-5AC4-041C-29DB5AEBA98A" name="Videogame_PK">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 02:18:34 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A67F4F83-41B5-B136-3150-A54B41647B1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A81925DE-6B34-5E21-0A2E-11AA0A6460B5" name="VideogameName_UN">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-05 21:42:41 UTC</createdTime>
+<ownerDesignName>Videogames Score</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9858C7A0-DCB3-DA95-06AC-7B3881C3FF86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

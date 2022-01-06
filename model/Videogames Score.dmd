@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Videogames Score" id="FDFFD6B1-E4D2-4DDC-CF7B-C3DA21A815DB" version="3.5">
+<createdBy>saezr</createdBy>
+<createdTime>2022-01-03 01:16:35 UTC</createdTime>
+<ownerDesignName>Videogame Score</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FDFFD6B1-E4D2-4DDC-CF7B-C3DA21A815DB</designId>
+</OSDM_Design>
