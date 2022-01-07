@@ -20,7 +20,7 @@ Dentro de la base de datos se creó un esquema para la carga de los archivos igu
 
 ![Staging](images/Staging.PNG) 
 
-Posteriormente se persiste la data en las tablas en tercera forma normal:
+Posteriormente se persiste la data en las tablas en tercera forma normal. Estas tablas fueron mapeadas por el ORM Sqlalchemy:
 
 ![3FN](images/Tables3fn.PNG) 
 
