@@ -2,16 +2,16 @@
 El proyecto considera los siguientes puntos:
 - Despliegue en contenedor: El proyecto considera un DOCKERFILE que despliega la base de datos y el código en un contenedor de forma que pueda implementarse de forma simple y rápida.
 - Modelo de datos: El modelo de datos se realizó con la herramienta SQL Modeler. Si bien en los proyectos de BI tradicional se considera modelar de forma desnormalizada (copo de nieve o estrella) para este caso se realiza el modelo en 3FN. El modelo se desplego en Oracle.
-- Código Python: EL código Python que realiza la carga de los datos se encuentra en la carpeta src. El fichero __init__ posee la lógica del ETL. Se utilizan los módulos pandas, cx_Oracle, sqlalchemy.
+- Código Python: EL código Python que realiza la carga de los datos se encuentra en la carpeta src. El fichero __init__ posee la lógica del ETL. Se utilizan los módulos pandas, cx_Oracle y sqlalchemy.
 - Jupyter Notebook: El nootebook posee código Python que genera los distintos rankings indicados. Se considera esta herramienta para analistas más avanzados. Requiere los mismos módulos que el código en Python.
 - Reporte Power BI: Adicional al Notebook Jupyter, se agregó un Power BI que permite la interacción más simple con la data.
 
 # Arquitectura de Solución
-Si bien el problema presenta múltiples soluciones se determinó realizar un proceso de carga típico de BI Tradicional.
+Si bien el problema presenta múltiples soluciones se determinó realizar un proceso de carga típico de BI Tradicional. Considera un área de Staging (simil a un área Bronze o Raw en un Datalake).
 
 ![Arquitectura](images/Arquitectura.PNG) 
 
-Para la solución se llevo a cabo un análisis previo de la data.
+Para la solución se llevó a cabo un análisis previo de la data. Dado que se requiere en 3FN se consideró que usar una herramienta de datawarehousing como SSAS, BigQuery, Synapse o Redshift no aplicaría.
 
 # Persistencia de datos 
 ## Modelo
