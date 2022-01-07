@@ -11,6 +11,8 @@ Si bien el problema presenta múltiples soluciones se determinó realizar un pro
 
 ![Arquitectura](images/Arquitectura.PNG) 
 
+Para la solución se llevo a cabo un análisis previo de la data.
+
 # Persistencia de datos 
 ## Modelo
 Para el proyecto se normalizo la base de datos ha tercera forma normal. 
@@ -49,7 +51,7 @@ Para ejecutar el ETL se debe ejecutar el siguiente comando en el contenedor:
 python3 /home/src/__init__.py
 ```
 
-El proceso ETL considera la inserción o actualización de los datos.
+Dentro del proceso ETL se consideran pasos para realizar limpieza de datos (ejemplo, borrar espacios al inicio y fin de un texto). El proceso ETL considera la inserción o actualización de los datos.
 
 ## Log
 El proyecto cuenta con la opción de visualizar logs para encontrar posibles errores:
