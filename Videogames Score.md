@@ -8,11 +8,13 @@ El proyecto considera los siguientes puntos:
 
 # Arquitectura de Solución
 Si bien el problema presenta múltiples soluciones se determinó realizar un proceso de carga típico de BI Tradicional.
+
 ![Arquitectura](images/Arquitectura.PNG) 
 
 # Persistencia de datos 
 ## Modelo
 Para el proyecto se normalizo la base de datos ha tercera forma normal. 
+
 ![Modelo](images/RelationalModel.PNG) 
 
 ## Base de datos
@@ -25,6 +27,7 @@ Posteriormente se persiste la data en las tablas en tercera forma normal. Estas 
 ![3FN](images/Tables3fn.PNG) 
 
 Se crearon 2 vistas para facilitar las consultas de datos:
+
 ![3FN](images/Vistas.PNG) 
 
 # Proceso de carga
@@ -50,13 +53,16 @@ El proceso ETL considera la inserción o actualización de los datos.
 
 ## Log
 El proyecto cuenta con la opción de visualizar logs para encontrar posibles errores:
+
 ![Log](images/Log.PNG) 
 
 En caso de errores muestra el detalle:
+
 ![Log Error](images/LogError.PNG) 
 
 ## Parámetros
 Dentro del código existe un fichero con las configuraciones para la base de datos y la activación del log:
+
 ![Parámetros](images/Params.PNG) 
 
 # Explotación de datos
@@ -64,4 +70,5 @@ Dentro del código existe un fichero con las configuraciones para la base de dat
 Para el reporte se consideraron 2 opciones. Una, un Notebook para usuarios más avanzados en este [link](https://github.com/user/repo/blob/branch/other_file.md)
 
 La otra opción es un BI de autoservicio en Power BI.
+
 ![Power BI](images/PBI.PNG) 
