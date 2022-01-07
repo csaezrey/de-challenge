@@ -12,3 +12,4 @@ ENGINE_PATH_WIN_AUTH = DIALECT + '+' + SQL_DRIVER + '://' + USERNAME \
 PATH = "/home/data/"
 CONSOLES_CSV = PATH + 'consoles.csv'
 RESULT_CSV = PATH + 'result.csv'
+ENABLED_DEBUG = True
